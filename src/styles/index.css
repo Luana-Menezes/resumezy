@@ -1,0 +1,14 @@
+@tailwind base;
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+@tailwind components;
+@tailwind utilities;
